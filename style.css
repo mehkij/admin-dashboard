@@ -1,10 +1,40 @@
 .grid-container {
   display: grid;
+  height: 100%;
   grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
 }
 
-.grid-container > div {
-  width: 200px;
-  height: 200px;
+.grid-container div {
+  height: 100%;
+  padding: 15px;
+}
+
+.sidebar {
+  background-color: #0ea5e9;
+  grid-row: 1 / 5;
+}
+
+.header {
   background-color: red;
+  grid-column: 2 / 5;
+}
+
+.main-content {
+  background-color: lime;
+  grid-area: 2 / 2 / 4 / 3;
+}
+
+.announcement-card,
+.trending-card {
+  background-color: grey;
+}
+
+.announcement-card {
+  grid-row: 2;
+  grid-column: 4;
+}
+
+.trending-card {
+  grid-row: 4;
+  grid-column: 4;
 }
