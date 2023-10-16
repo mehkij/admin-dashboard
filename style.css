@@ -28,20 +28,5 @@ html {
 
 .main-content {
   background-color: lime;
-  grid-area: 2 / 2 / 5 / 4;
-}
-
-.announcement-card,
-.trending-card {
-  background-color: grey;
-}
-
-.announcement-card {
-  grid-row: 2;
-  grid-column: 4;
-}
-
-.trending-card {
-  grid-row: 4;
-  grid-column: 4;
+  grid-area: 2 / 2 / 5 / 5;
 }
