@@ -19,7 +19,7 @@
 
 .main-content {
   background-color: lime;
-  grid-area: 2 / 2 / 4 / 3;
+  grid-area: 2 / 2 / 5 / 4;
 }
 
 .announcement-card,
